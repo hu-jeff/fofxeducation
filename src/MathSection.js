@@ -4,7 +4,7 @@ import './MathSection.css'
 class MathSection extends Component {
     render() {
         return (
-            <h1>Math {this.props.level}</h1>
+            <a href={'https://www.google.com'}>Math {this.props.level}</a>
         )
     }
 }

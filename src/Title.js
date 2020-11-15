@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import MathSection from './MathSection'
 import './Title.css';
 
 class Title extends Component {
@@ -6,9 +7,19 @@ class Title extends Component {
         return (
             <div className={'titleHolder'}>
                 <h1 className={'Title'}>{this.props.title}</h1>
+
+                <div className={'sectionContainer'}>
+                    <MathSection level={10}/>
+                    <MathSection level={20}/>
+                    <MathSection level={30}/>
+                    <MathSection level={31}/>
+                </div>
                 <h1 className={'Names'}>JEFF HU | RYAN LI</h1>
             </div>
-        );
+
+
+        )
+            ;
     }
 }
 

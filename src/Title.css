@@ -3,25 +3,24 @@
     height: 100vh;
     margin: 0;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
 }
 
 .Title {
-    /*background-image: url('background-image.jpeg');*/
 
     color: white;
     margin: 0;
-    display: flex;
+    padding-top: 35vh;
+    /*display: flex;*/
     text-align: center;
 
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
     font-size: 8vmin;
-
-    letter-spacing: 3vmin;
+    letter-spacing: 2vmin;
     /*text-shadow: 0 2px 6px rgba(0, 0, 0, 1);*/
 }
 
