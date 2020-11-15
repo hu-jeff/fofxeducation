@@ -1,0 +1,22 @@
+.sectionContainer {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.sectionContainer > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+    height: 50%;
+    width: 40%;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 6vmin;
+}

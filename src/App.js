@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import MathSection from './MathSection'
 import './App.css';
+import React from "react";
+import Title from "./Title";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Title title={'MATH HELPER'}/>
+
+            <div className={'sectionContainer'}>
+                <MathSection level={10}/>
+                <MathSection level={20}/>
+                <MathSection level={30}/>
+                <MathSection level={31}/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
