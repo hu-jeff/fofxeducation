@@ -1,5 +1,5 @@
 .titleHolder {
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("background-image.jpeg");;
     height: 100vh;
     margin: 0;
 
@@ -27,6 +27,9 @@
 .Names {
     margin: 0;
     color: white;
+
+    position: absolute;
+    bottom: 0;
 
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
