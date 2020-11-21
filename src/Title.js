@@ -14,6 +14,7 @@ class Title extends Component {
                     <MathSection level={30}/>
                     <MathSection level={31}/>
                 </div>
+                <h2 className={'Description'}>Math help designed for Alberta secondary students</h2>
                 <h1 className={'Names'}>JEFF HU | RYAN LI</h1>
             </div>
 
