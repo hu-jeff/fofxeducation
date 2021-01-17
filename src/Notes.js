@@ -7,7 +7,8 @@ class Notes extends Component {
         return (
             <div>
                 {console.log(this.props.match.url)}
-                <Youtube videoId={'RkC0l4iekYo'}/>
+                {/*<Youtube videoId={'RkC0l4iekYo'}/>*/}
+                <h1>Fixing issues</h1>
             </div>
         )
     }
